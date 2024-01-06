@@ -248,4 +248,42 @@ a {
 }
 
 /* ------------------------------------------------------- */
+/* Your common styles here */
 
+/* Desktop styles */
+@media screen and (min-width: 768px) {
+  /* Your desktop styles here */
+}
+
+/* Mobile styles */
+@media screen and (max-width: 767px) {
+  /* Your mobile styles here */
+}
+
+
+/************************* education css ***************************/
+.education-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.education-table th,
+.education-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.education-table th {
+  background-color: #3498db;
+  color: #fff;
+}
+
+.education-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.education-table tbody tr:hover {
+  background-color: #ddd;
+}
