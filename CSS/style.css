@@ -166,7 +166,7 @@ label {
 .navbar-brand {
   font-family: "Ubuntu";
   font-size: 2.7rem;
-  /* font-weight:bold ; */
+  font-weight: bold;
 }
 
 .navbar-nav > li {
@@ -176,7 +176,7 @@ label {
 }
 
 .nav-link {
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   font-family: "Montserrat-Light";
   font-weight: bold;
   margin-left: 15%;
@@ -198,18 +198,18 @@ label {
   font-weight: bold;
 }
 .dropdown-menu > li > a:hover {
-  background-color: rgba(50, 26, 138, 0.1);
+  background-color: rgba(3, 1, 25, 0.1);
 }
 .dropdown-divider {
-  border-color: black;
+  border-color: rgb(237, 236, 241);
 
   height: 100%;
   width: 100%;
 }
 
-.navbar-toggler {
-  background-color: rgb(144, 127, 241, 0.2);
-}
+/* .navbar-toggler {
+  background-color: rgba(60, 29, 231, 0.2);
+} */
 
 .smallhome {
   margin-right: 0;
@@ -239,9 +239,9 @@ a {
   flex-direction: column;
 }
 
-.navbar-container {
-  flex-grow: 0.2;
-}
+/* .navbar-container {
+  flex-grow: 0.2%;
+} */
 
 .except-nav {
   flex-grow: 1;
@@ -251,15 +251,12 @@ a {
 /* Your common styles here */
 
 /* Desktop styles */
-@media screen and (min-width: 768px) {
-  /* Your desktop styles here */
-}
+/* @media screen and (min-width: 768px) {
+} */
 
 /* Mobile styles */
-@media screen and (max-width: 767px) {
-  /* Your mobile styles here */
-}
-
+/* @media screen and (max-width: 767px) {
+} */
 
 /************************* education css ***************************/
 .education-table {
@@ -287,3 +284,12 @@ a {
 .education-table tbody tr:hover {
   background-color: #ddd;
 }
+/* ******************************* */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+/* ******************************* */
+
